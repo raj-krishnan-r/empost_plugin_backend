@@ -1,0 +1,56 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:epg="http://epg.generic.masterdata/">
+      <soap-env:Header xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"/>
+   </soapenv:Header>
+   <soapenv:Body xmlns:epg="http://epg.generic.masterdata/">
+      <ns2:GetEmiratesDetailsResponse xmlns:ns2="http://epg.generic.masterdata/">
+         <ns2:GetEmiratesDetailsResult>
+            <ns2:EmirateBO>
+               <ns2:EmirateID>2</ns2:EmirateID>
+               <ns2:EmirateName>Abu Dhabi</ns2:EmirateName>
+               <ns2:EmirateCode>AUH</ns2:EmirateCode>
+            </ns2:EmirateBO>
+            <ns2:EmirateBO>
+               <ns2:EmirateID>4</ns2:EmirateID>
+               <ns2:EmirateName>Ajman</ns2:EmirateName>
+               <ns2:EmirateCode>AJM</ns2:EmirateCode>
+            </ns2:EmirateBO>
+            <ns2:EmirateBO>
+               <ns2:EmirateID>12</ns2:EmirateID>
+               <ns2:EmirateName>Al Ain</ns2:EmirateName>
+               <ns2:EmirateCode>AIN</ns2:EmirateCode>
+            </ns2:EmirateBO>
+            <ns2:EmirateBO>
+               <ns2:EmirateID>51013</ns2:EmirateID>
+               <ns2:EmirateName>dasd</ns2:EmirateName>
+               <ns2:EmirateCode>asd</ns2:EmirateCode>
+            </ns2:EmirateBO>
+            <ns2:EmirateBO>
+               <ns2:EmirateID>1</ns2:EmirateID>
+               <ns2:EmirateName>Dubai</ns2:EmirateName>
+               <ns2:EmirateCode>DXB</ns2:EmirateCode>
+            </ns2:EmirateBO>
+            <ns2:EmirateBO>
+               <ns2:EmirateID>5</ns2:EmirateID>
+               <ns2:EmirateName>Fujairah</ns2:EmirateName>
+               <ns2:EmirateCode>FUJ</ns2:EmirateCode>
+            </ns2:EmirateBO>
+            <ns2:EmirateBO>
+               <ns2:EmirateID>6</ns2:EmirateID>
+               <ns2:EmirateName>Ras Al Khaimah</ns2:EmirateName>
+               <ns2:EmirateCode>RAK</ns2:EmirateCode>
+            </ns2:EmirateBO>
+            <ns2:EmirateBO>
+               <ns2:EmirateID>3</ns2:EmirateID>
+               <ns2:EmirateName>Sharjah</ns2:EmirateName>
+               <ns2:EmirateCode>SHJ</ns2:EmirateCode>
+            </ns2:EmirateBO>
+            <ns2:EmirateBO>
+               <ns2:EmirateID>7</ns2:EmirateID>
+               <ns2:EmirateName>Umm Al Quwain</ns2:EmirateName>
+               <ns2:EmirateCode>UAQ</ns2:EmirateCode>
+            </ns2:EmirateBO>
+         </ns2:GetEmiratesDetailsResult>
+      </ns2:GetEmiratesDetailsResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,1717 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:epg="http://epg.generic.masterdata/">
+      <soap-env:Header xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"/>
+   </soapenv:Header>
+   <soapenv:Body xmlns:epg="http://epg.generic.masterdata/">
+      <ns2:GetCountriesResponse xmlns:ns2="http://epg.generic.masterdata/">
+         <ns2:CountriesResponse>
+            <ns2:Countries>
+               <ns2:Country>
+                  <ns2:CountryId>247</ns2:CountryId>
+                  <ns2:CountryName>AFGHANISTAN</ns2:CountryName>
+                  <ns2:CountryNameAR>AFGHANISTAN</ns2:CountryNameAR>
+                  <ns2:CountryCode>AF</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>1</ns2:CountryId>
+                  <ns2:CountryName>ALASKA</ns2:CountryName>
+                  <ns2:CountryNameAR>ALASKA</ns2:CountryNameAR>
+                  <ns2:CountryCode>AL</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>2</ns2:CountryId>
+                  <ns2:CountryName>ALBANIA</ns2:CountryName>
+                  <ns2:CountryNameAR>ALBANIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>AL</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>3</ns2:CountryId>
+                  <ns2:CountryName>ALGERIA</ns2:CountryName>
+                  <ns2:CountryNameAR>ALGERIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>DZ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>303</ns2:CountryId>
+                  <ns2:CountryName>American Samoa</ns2:CountryName>
+                  <ns2:CountryNameAR>American Samoa</ns2:CountryNameAR>
+                  <ns2:CountryCode>AS</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>261</ns2:CountryId>
+                  <ns2:CountryName>ANDORRA</ns2:CountryName>
+                  <ns2:CountryNameAR>ANDORRA</ns2:CountryNameAR>
+                  <ns2:CountryCode>AD</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>4</ns2:CountryId>
+                  <ns2:CountryName>ANGOLA</ns2:CountryName>
+                  <ns2:CountryNameAR>ANGOLA</ns2:CountryNameAR>
+                  <ns2:CountryCode>AO</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>5</ns2:CountryId>
+                  <ns2:CountryName>ANGUILLA</ns2:CountryName>
+                  <ns2:CountryNameAR>ANGUILLA</ns2:CountryNameAR>
+                  <ns2:CountryCode>AI</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>6</ns2:CountryId>
+                  <ns2:CountryName>ANTIGUA  &amp; BARBUDA</ns2:CountryName>
+                  <ns2:CountryNameAR>ANTIGUA  &amp; BARBUDA</ns2:CountryNameAR>
+                  <ns2:CountryCode>AG</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>7</ns2:CountryId>
+                  <ns2:CountryName>ARGENTINA</ns2:CountryName>
+                  <ns2:CountryNameAR>ARGENTINA</ns2:CountryNameAR>
+                  <ns2:CountryCode>AR</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>8</ns2:CountryId>
+                  <ns2:CountryName>ARMENIA</ns2:CountryName>
+                  <ns2:CountryNameAR>ARMENIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>AM</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>9</ns2:CountryId>
+                  <ns2:CountryName>ARUBA</ns2:CountryName>
+                  <ns2:CountryNameAR>ARUBA</ns2:CountryNameAR>
+                  <ns2:CountryCode>AW</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>10</ns2:CountryId>
+                  <ns2:CountryName>ASCENSION</ns2:CountryName>
+                  <ns2:CountryNameAR>ASCENSION</ns2:CountryNameAR>
+                  <ns2:CountryCode>SH</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>11</ns2:CountryId>
+                  <ns2:CountryName>AUSTRALIA</ns2:CountryName>
+                  <ns2:CountryNameAR>AUSTRALIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>AU</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>12</ns2:CountryId>
+                  <ns2:CountryName>AUSTRIA</ns2:CountryName>
+                  <ns2:CountryNameAR>AUSTRIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>AT</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>13</ns2:CountryId>
+                  <ns2:CountryName>AZERBAIJAN</ns2:CountryName>
+                  <ns2:CountryNameAR>AZERBAIJAN</ns2:CountryNameAR>
+                  <ns2:CountryCode>AZ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>14</ns2:CountryId>
+                  <ns2:CountryName>AZORES</ns2:CountryName>
+                  <ns2:CountryNameAR>AZORES</ns2:CountryNameAR>
+                  <ns2:CountryCode>AZORES</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>15</ns2:CountryId>
+                  <ns2:CountryName>BAHAMAS</ns2:CountryName>
+                  <ns2:CountryNameAR>BAHAMAS</ns2:CountryNameAR>
+                  <ns2:CountryCode>BS</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>16</ns2:CountryId>
+                  <ns2:CountryName>BAHRAIN</ns2:CountryName>
+                  <ns2:CountryNameAR>BAHRAIN</ns2:CountryNameAR>
+                  <ns2:CountryCode>BH</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>17</ns2:CountryId>
+                  <ns2:CountryName>BALEARIC IS</ns2:CountryName>
+                  <ns2:CountryNameAR>BALEARIC IS</ns2:CountryNameAR>
+                  <ns2:CountryCode>17</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>18</ns2:CountryId>
+                  <ns2:CountryName>BANGLADESH</ns2:CountryName>
+                  <ns2:CountryNameAR>BANGLADESH</ns2:CountryNameAR>
+                  <ns2:CountryCode>BD</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>19</ns2:CountryId>
+                  <ns2:CountryName>BARBADOS</ns2:CountryName>
+                  <ns2:CountryNameAR>BARBADOS</ns2:CountryNameAR>
+                  <ns2:CountryCode>BB</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>20</ns2:CountryId>
+                  <ns2:CountryName>BELARUS</ns2:CountryName>
+                  <ns2:CountryNameAR>BELARUS</ns2:CountryNameAR>
+                  <ns2:CountryCode>BY</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>21</ns2:CountryId>
+                  <ns2:CountryName>BELGIUM</ns2:CountryName>
+                  <ns2:CountryNameAR>BELGIUM</ns2:CountryNameAR>
+                  <ns2:CountryCode>BE</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>22</ns2:CountryId>
+                  <ns2:CountryName>BELIZE</ns2:CountryName>
+                  <ns2:CountryNameAR>BELIZE</ns2:CountryNameAR>
+                  <ns2:CountryCode>BZ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>23</ns2:CountryId>
+                  <ns2:CountryName>BENIN</ns2:CountryName>
+                  <ns2:CountryNameAR>BENIN</ns2:CountryNameAR>
+                  <ns2:CountryCode>BJ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>24</ns2:CountryId>
+                  <ns2:CountryName>BERMUDA</ns2:CountryName>
+                  <ns2:CountryNameAR>BERMUDA</ns2:CountryNameAR>
+                  <ns2:CountryCode>BM</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>25</ns2:CountryId>
+                  <ns2:CountryName>BHUTAN</ns2:CountryName>
+                  <ns2:CountryNameAR>BHUTAN</ns2:CountryNameAR>
+                  <ns2:CountryCode>BT</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>26</ns2:CountryId>
+                  <ns2:CountryName>BOLIVIA</ns2:CountryName>
+                  <ns2:CountryNameAR>BOLIVIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>BO</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>304</ns2:CountryId>
+                  <ns2:CountryName>Bonaire</ns2:CountryName>
+                  <ns2:CountryNameAR>Bonaire</ns2:CountryNameAR>
+                  <ns2:CountryCode>XB</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>27</ns2:CountryId>
+                  <ns2:CountryName>BOSNIA-HERZEGOVINA</ns2:CountryName>
+                  <ns2:CountryNameAR>BOSNIA-HERZEGOVINA</ns2:CountryNameAR>
+                  <ns2:CountryCode>BA</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>28</ns2:CountryId>
+                  <ns2:CountryName>BOTSWANA</ns2:CountryName>
+                  <ns2:CountryNameAR>BOTSWANA</ns2:CountryNameAR>
+                  <ns2:CountryCode>BW</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>29</ns2:CountryId>
+                  <ns2:CountryName>BRAZIL</ns2:CountryName>
+                  <ns2:CountryNameAR>BRAZIL</ns2:CountryNameAR>
+                  <ns2:CountryCode>BR</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>30</ns2:CountryId>
+                  <ns2:CountryName>BRUNEI   DARUSSALAM</ns2:CountryName>
+                  <ns2:CountryNameAR>BRUNEI   DARUSSALAM</ns2:CountryNameAR>
+                  <ns2:CountryCode>BN</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>31</ns2:CountryId>
+                  <ns2:CountryName>BULGARIA</ns2:CountryName>
+                  <ns2:CountryNameAR>BULGARIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>BG</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>32</ns2:CountryId>
+                  <ns2:CountryName>BURKINA FASO</ns2:CountryName>
+                  <ns2:CountryNameAR>BURKINA FASO</ns2:CountryNameAR>
+                  <ns2:CountryCode>BF</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>305</ns2:CountryId>
+                  <ns2:CountryName>Burma</ns2:CountryName>
+                  <ns2:CountryNameAR>Burma</ns2:CountryNameAR>
+                  <ns2:CountryCode>MM</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>33</ns2:CountryId>
+                  <ns2:CountryName>BURUNDI</ns2:CountryName>
+                  <ns2:CountryNameAR>BURUNDI</ns2:CountryNameAR>
+                  <ns2:CountryCode>BI</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>34</ns2:CountryId>
+                  <ns2:CountryName>CAMBODIA</ns2:CountryName>
+                  <ns2:CountryNameAR>CAMBODIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>KH</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>35</ns2:CountryId>
+                  <ns2:CountryName>CAMEROON</ns2:CountryName>
+                  <ns2:CountryNameAR>CAMEROON</ns2:CountryNameAR>
+                  <ns2:CountryCode>CM</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>36</ns2:CountryId>
+                  <ns2:CountryName>CANADA</ns2:CountryName>
+                  <ns2:CountryNameAR>CANADA</ns2:CountryNameAR>
+                  <ns2:CountryCode>CA</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>37</ns2:CountryId>
+                  <ns2:CountryName>CANARY IS.</ns2:CountryName>
+                  <ns2:CountryNameAR>CANARY IS.</ns2:CountryNameAR>
+                  <ns2:CountryCode>ES</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>38</ns2:CountryId>
+                  <ns2:CountryName>CAPE VERDE ISLANDS</ns2:CountryName>
+                  <ns2:CountryNameAR>CAPE VERDE ISLANDS</ns2:CountryNameAR>
+                  <ns2:CountryCode>CV</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>39</ns2:CountryId>
+                  <ns2:CountryName>CAROLINE IS.</ns2:CountryName>
+                  <ns2:CountryNameAR>CAROLINE IS.</ns2:CountryNameAR>
+                  <ns2:CountryCode>39</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>40</ns2:CountryId>
+                  <ns2:CountryName>CAYMAN IS.</ns2:CountryName>
+                  <ns2:CountryNameAR>CAYMAN IS.</ns2:CountryNameAR>
+                  <ns2:CountryCode>KY</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>41</ns2:CountryId>
+                  <ns2:CountryName>CENTRAL AFRICAN REP.</ns2:CountryName>
+                  <ns2:CountryNameAR>CENTRAL AFRICAN REP.</ns2:CountryNameAR>
+                  <ns2:CountryCode>CF</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>42</ns2:CountryId>
+                  <ns2:CountryName>CHAD REP.</ns2:CountryName>
+                  <ns2:CountryNameAR>CHAD REP.</ns2:CountryNameAR>
+                  <ns2:CountryCode>TD</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>43</ns2:CountryId>
+                  <ns2:CountryName>CHILE</ns2:CountryName>
+                  <ns2:CountryNameAR>CHILE</ns2:CountryNameAR>
+                  <ns2:CountryCode>CL</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>44</ns2:CountryId>
+                  <ns2:CountryName>CHINA P. REP.</ns2:CountryName>
+                  <ns2:CountryNameAR>CHINA P. REP.</ns2:CountryNameAR>
+                  <ns2:CountryCode>CN</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>45</ns2:CountryId>
+                  <ns2:CountryName>CHRISTMAS IS. (Indian</ns2:CountryName>
+                  <ns2:CountryNameAR>CHRISTMAS IS. (Indian</ns2:CountryNameAR>
+                  <ns2:CountryCode>45</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>46</ns2:CountryId>
+                  <ns2:CountryName>CHRISTMAS IS. (Pacifi</ns2:CountryName>
+                  <ns2:CountryNameAR>CHRISTMAS IS. (Pacifi</ns2:CountryNameAR>
+                  <ns2:CountryCode>46</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>47</ns2:CountryId>
+                  <ns2:CountryName>COCOS (Keeling Is.)</ns2:CountryName>
+                  <ns2:CountryNameAR>COCOS (Keeling Is.)</ns2:CountryNameAR>
+                  <ns2:CountryCode>CC</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>48</ns2:CountryId>
+                  <ns2:CountryName>COLOMBIA</ns2:CountryName>
+                  <ns2:CountryNameAR>COLOMBIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>CO</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>331</ns2:CountryId>
+                  <ns2:CountryName>COMMONWEALTH OF NORTHERN MARIANA ISLANDS</ns2:CountryName>
+                  <ns2:CountryNameAR/>
+                  <ns2:CountryCode>MP</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>49</ns2:CountryId>
+                  <ns2:CountryName>COMOROS</ns2:CountryName>
+                  <ns2:CountryNameAR>COMOROS</ns2:CountryNameAR>
+                  <ns2:CountryCode>KM</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>307</ns2:CountryId>
+                  <ns2:CountryName>Congo</ns2:CountryName>
+                  <ns2:CountryNameAR>Congo</ns2:CountryNameAR>
+                  <ns2:CountryCode>CG</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>59</ns2:CountryId>
+                  <ns2:CountryName>CONGO (DEM. REP.)</ns2:CountryName>
+                  <ns2:CountryNameAR>CONGO (DEM. REP.)</ns2:CountryNameAR>
+                  <ns2:CountryCode>CD</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>50</ns2:CountryId>
+                  <ns2:CountryName>CONGO (Rep.)</ns2:CountryName>
+                  <ns2:CountryNameAR>CONGO (Rep.)</ns2:CountryNameAR>
+                  <ns2:CountryCode>CG</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>51</ns2:CountryId>
+                  <ns2:CountryName>COOK IS.</ns2:CountryName>
+                  <ns2:CountryNameAR>COOK IS.</ns2:CountryNameAR>
+                  <ns2:CountryCode>CK</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>52</ns2:CountryId>
+                  <ns2:CountryName>CORSICA</ns2:CountryName>
+                  <ns2:CountryNameAR>CORSICA</ns2:CountryNameAR>
+                  <ns2:CountryCode>52</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>53</ns2:CountryId>
+                  <ns2:CountryName>COSTA RICA</ns2:CountryName>
+                  <ns2:CountryNameAR>COSTA RICA</ns2:CountryNameAR>
+                  <ns2:CountryCode>CR</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>54</ns2:CountryId>
+                  <ns2:CountryName>CROATIA</ns2:CountryName>
+                  <ns2:CountryNameAR>CROATIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>HR</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>55</ns2:CountryId>
+                  <ns2:CountryName>CUBA</ns2:CountryName>
+                  <ns2:CountryNameAR>CUBA</ns2:CountryNameAR>
+                  <ns2:CountryCode>CU</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>56</ns2:CountryId>
+                  <ns2:CountryName>CURACAO</ns2:CountryName>
+                  <ns2:CountryNameAR>CURACAO</ns2:CountryNameAR>
+                  <ns2:CountryCode>AN</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>57</ns2:CountryId>
+                  <ns2:CountryName>CYPRUS</ns2:CountryName>
+                  <ns2:CountryNameAR>CYPRUS</ns2:CountryNameAR>
+                  <ns2:CountryCode>CY</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>58</ns2:CountryId>
+                  <ns2:CountryName>CZECH REP.</ns2:CountryName>
+                  <ns2:CountryNameAR>CZECH REP.</ns2:CountryNameAR>
+                  <ns2:CountryCode>CZ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>60</ns2:CountryId>
+                  <ns2:CountryName>DENMARK</ns2:CountryName>
+                  <ns2:CountryNameAR>DENMARK</ns2:CountryNameAR>
+                  <ns2:CountryCode>DK</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>61</ns2:CountryId>
+                  <ns2:CountryName>DJIBOUTI</ns2:CountryName>
+                  <ns2:CountryNameAR>DJIBOUTI</ns2:CountryNameAR>
+                  <ns2:CountryCode>DJ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>62</ns2:CountryId>
+                  <ns2:CountryName>DOMINICA</ns2:CountryName>
+                  <ns2:CountryNameAR>DOMINICA</ns2:CountryNameAR>
+                  <ns2:CountryCode>DM</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>63</ns2:CountryId>
+                  <ns2:CountryName>DOMINICAN REP.</ns2:CountryName>
+                  <ns2:CountryNameAR>DOMINICAN REP.</ns2:CountryNameAR>
+                  <ns2:CountryCode>DO</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>327</ns2:CountryId>
+                  <ns2:CountryName>East Timor</ns2:CountryName>
+                  <ns2:CountryNameAR>East Timor</ns2:CountryNameAR>
+                  <ns2:CountryCode>TP</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>270</ns2:CountryId>
+                  <ns2:CountryName>EASTER ISLAND</ns2:CountryName>
+                  <ns2:CountryNameAR>EASTER ISLAND</ns2:CountryNameAR>
+                  <ns2:CountryCode>CL</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>64</ns2:CountryId>
+                  <ns2:CountryName>ECUADOR</ns2:CountryName>
+                  <ns2:CountryNameAR>ECUADOR</ns2:CountryNameAR>
+                  <ns2:CountryCode>EC</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>65</ns2:CountryId>
+                  <ns2:CountryName>EGYPT ARAB REP.</ns2:CountryName>
+                  <ns2:CountryNameAR>EGYPT ARAB REP.</ns2:CountryNameAR>
+                  <ns2:CountryCode>EG</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>66</ns2:CountryId>
+                  <ns2:CountryName>EL SALVADOR</ns2:CountryName>
+                  <ns2:CountryNameAR>EL SALVADOR</ns2:CountryNameAR>
+                  <ns2:CountryCode>SV</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>67</ns2:CountryId>
+                  <ns2:CountryName>EQUATORIAL GUINEA</ns2:CountryName>
+                  <ns2:CountryNameAR>EQUATORIAL GUINEA</ns2:CountryNameAR>
+                  <ns2:CountryCode>GQ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>68</ns2:CountryId>
+                  <ns2:CountryName>ERITREA</ns2:CountryName>
+                  <ns2:CountryNameAR>ERITREA</ns2:CountryNameAR>
+                  <ns2:CountryCode>ER</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>69</ns2:CountryId>
+                  <ns2:CountryName>ESTONIA</ns2:CountryName>
+                  <ns2:CountryNameAR>ESTONIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>EE</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>70</ns2:CountryId>
+                  <ns2:CountryName>ETHIOPIA</ns2:CountryName>
+                  <ns2:CountryNameAR>ETHIOPIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>ET</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>71</ns2:CountryId>
+                  <ns2:CountryName>FALKLAND ISLANDS</ns2:CountryName>
+                  <ns2:CountryNameAR>FALKLAND ISLANDS</ns2:CountryNameAR>
+                  <ns2:CountryCode>FK</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>72</ns2:CountryId>
+                  <ns2:CountryName>FANNING IS.</ns2:CountryName>
+                  <ns2:CountryNameAR>FANNING IS.</ns2:CountryNameAR>
+                  <ns2:CountryCode>72</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>73</ns2:CountryId>
+                  <ns2:CountryName>FAROE ISLANDS</ns2:CountryName>
+                  <ns2:CountryNameAR>FAROE ISLANDS</ns2:CountryNameAR>
+                  <ns2:CountryCode>FO</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>74</ns2:CountryId>
+                  <ns2:CountryName>FIJI</ns2:CountryName>
+                  <ns2:CountryNameAR>FIJI</ns2:CountryNameAR>
+                  <ns2:CountryCode>FJ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>75</ns2:CountryId>
+                  <ns2:CountryName>FINLAND</ns2:CountryName>
+                  <ns2:CountryNameAR>FINLAND</ns2:CountryNameAR>
+                  <ns2:CountryCode>FI</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>76</ns2:CountryId>
+                  <ns2:CountryName>FRANCE</ns2:CountryName>
+                  <ns2:CountryNameAR>FRANCE</ns2:CountryNameAR>
+                  <ns2:CountryCode>FR</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>77</ns2:CountryId>
+                  <ns2:CountryName>FRENCH GUIANA</ns2:CountryName>
+                  <ns2:CountryNameAR>FRENCH GUIANA</ns2:CountryNameAR>
+                  <ns2:CountryCode>GF</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>78</ns2:CountryId>
+                  <ns2:CountryName>FRENCH POLYNESIA</ns2:CountryName>
+                  <ns2:CountryNameAR>FRENCH POLYNESIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>PF</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>79</ns2:CountryId>
+                  <ns2:CountryName>GABON</ns2:CountryName>
+                  <ns2:CountryNameAR>GABON</ns2:CountryNameAR>
+                  <ns2:CountryCode>GA</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>80</ns2:CountryId>
+                  <ns2:CountryName>GAMBIA</ns2:CountryName>
+                  <ns2:CountryNameAR>GAMBIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>GM</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>81</ns2:CountryId>
+                  <ns2:CountryName>GEORGIA</ns2:CountryName>
+                  <ns2:CountryNameAR>GEORGIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>GE</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>82</ns2:CountryId>
+                  <ns2:CountryName>GERMANY</ns2:CountryName>
+                  <ns2:CountryNameAR>GERMANY</ns2:CountryNameAR>
+                  <ns2:CountryCode>DE</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>83</ns2:CountryId>
+                  <ns2:CountryName>GHANA</ns2:CountryName>
+                  <ns2:CountryNameAR>GHANA</ns2:CountryNameAR>
+                  <ns2:CountryCode>GH</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>84</ns2:CountryId>
+                  <ns2:CountryName>GIBRALTAR</ns2:CountryName>
+                  <ns2:CountryNameAR>GIBRALTAR</ns2:CountryNameAR>
+                  <ns2:CountryCode>GI</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>85</ns2:CountryId>
+                  <ns2:CountryName>GREAT BRITAIN &amp; NORTHERN IRELAND</ns2:CountryName>
+                  <ns2:CountryNameAR>GREAT BRITAIN &amp; NORTHERN IRELAND</ns2:CountryNameAR>
+                  <ns2:CountryCode>GB</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>86</ns2:CountryId>
+                  <ns2:CountryName>GREECE</ns2:CountryName>
+                  <ns2:CountryNameAR>GREECE</ns2:CountryNameAR>
+                  <ns2:CountryCode>GR</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>87</ns2:CountryId>
+                  <ns2:CountryName>GREENLAND</ns2:CountryName>
+                  <ns2:CountryNameAR>GREENLAND</ns2:CountryNameAR>
+                  <ns2:CountryCode>GL</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>88</ns2:CountryId>
+                  <ns2:CountryName>GRENADA</ns2:CountryName>
+                  <ns2:CountryNameAR>GRENADA</ns2:CountryNameAR>
+                  <ns2:CountryCode>GD</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>89</ns2:CountryId>
+                  <ns2:CountryName>GUADELOUPE</ns2:CountryName>
+                  <ns2:CountryNameAR>GUADELOUPE</ns2:CountryNameAR>
+                  <ns2:CountryCode>GP</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>90</ns2:CountryId>
+                  <ns2:CountryName>GUAM</ns2:CountryName>
+                  <ns2:CountryNameAR>GUAM</ns2:CountryNameAR>
+                  <ns2:CountryCode>GU</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>272</ns2:CountryId>
+                  <ns2:CountryName>GUANTINAMO BAY</ns2:CountryName>
+                  <ns2:CountryNameAR>GUANTINAMO BAY</ns2:CountryNameAR>
+                  <ns2:CountryCode>CU</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>91</ns2:CountryId>
+                  <ns2:CountryName>GUATEMALA</ns2:CountryName>
+                  <ns2:CountryNameAR>GUATEMALA</ns2:CountryNameAR>
+                  <ns2:CountryCode>GT</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>264</ns2:CountryId>
+                  <ns2:CountryName>GUERNSEY</ns2:CountryName>
+                  <ns2:CountryNameAR>GUERNSEY</ns2:CountryNameAR>
+                  <ns2:CountryCode>GZ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>92</ns2:CountryId>
+                  <ns2:CountryName>GUINEA (REP.)</ns2:CountryName>
+                  <ns2:CountryNameAR>GUINEA (REP.)</ns2:CountryNameAR>
+                  <ns2:CountryCode>GN</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>93</ns2:CountryId>
+                  <ns2:CountryName>GUINEA BISSAU</ns2:CountryName>
+                  <ns2:CountryNameAR>GUINEA BISSAU</ns2:CountryNameAR>
+                  <ns2:CountryCode>GW</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>94</ns2:CountryId>
+                  <ns2:CountryName>GUYANA</ns2:CountryName>
+                  <ns2:CountryNameAR>GUYANA</ns2:CountryNameAR>
+                  <ns2:CountryCode>GY</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>95</ns2:CountryId>
+                  <ns2:CountryName>HAITI</ns2:CountryName>
+                  <ns2:CountryNameAR>HAITI</ns2:CountryNameAR>
+                  <ns2:CountryCode>HT</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>96</ns2:CountryId>
+                  <ns2:CountryName>HAWAII</ns2:CountryName>
+                  <ns2:CountryNameAR>HAWAII</ns2:CountryNameAR>
+                  <ns2:CountryCode>96</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>97</ns2:CountryId>
+                  <ns2:CountryName>HONDURAS REP.</ns2:CountryName>
+                  <ns2:CountryNameAR>HONDURAS REP.</ns2:CountryNameAR>
+                  <ns2:CountryCode>HN</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>98</ns2:CountryId>
+                  <ns2:CountryName>HONGKONG,CHINA</ns2:CountryName>
+                  <ns2:CountryNameAR>HONGKONG,CHINA</ns2:CountryNameAR>
+                  <ns2:CountryCode>HK</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>99</ns2:CountryId>
+                  <ns2:CountryName>HUNGARY REP</ns2:CountryName>
+                  <ns2:CountryNameAR>HUNGARY REP</ns2:CountryNameAR>
+                  <ns2:CountryCode>HU</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>100</ns2:CountryId>
+                  <ns2:CountryName>ICELAND</ns2:CountryName>
+                  <ns2:CountryNameAR>ICELAND</ns2:CountryNameAR>
+                  <ns2:CountryCode>IS</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>101</ns2:CountryId>
+                  <ns2:CountryName>INDIA</ns2:CountryName>
+                  <ns2:CountryNameAR>INDIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>IN</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>102</ns2:CountryId>
+                  <ns2:CountryName>INDONESIA</ns2:CountryName>
+                  <ns2:CountryNameAR>INDONESIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>ID</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>103</ns2:CountryId>
+                  <ns2:CountryName>IRAN ISLAMIC REP</ns2:CountryName>
+                  <ns2:CountryNameAR>IRAN ISLAMIC REP</ns2:CountryNameAR>
+                  <ns2:CountryCode>IR</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>104</ns2:CountryId>
+                  <ns2:CountryName>IRAQ</ns2:CountryName>
+                  <ns2:CountryNameAR>IRAQ</ns2:CountryNameAR>
+                  <ns2:CountryCode>IQ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>105</ns2:CountryId>
+                  <ns2:CountryName>IRELAND</ns2:CountryName>
+                  <ns2:CountryNameAR>IRELAND</ns2:CountryNameAR>
+                  <ns2:CountryCode>IE</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>106</ns2:CountryId>
+                  <ns2:CountryName>ITALY</ns2:CountryName>
+                  <ns2:CountryNameAR>ITALY</ns2:CountryNameAR>
+                  <ns2:CountryCode>IT</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>107</ns2:CountryId>
+                  <ns2:CountryName>IVORY COAST</ns2:CountryName>
+                  <ns2:CountryNameAR>IVORY COAST</ns2:CountryNameAR>
+                  <ns2:CountryCode>CI</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>108</ns2:CountryId>
+                  <ns2:CountryName>JAMAICA</ns2:CountryName>
+                  <ns2:CountryNameAR>JAMAICA</ns2:CountryNameAR>
+                  <ns2:CountryCode>JM</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>109</ns2:CountryId>
+                  <ns2:CountryName>JAPAN</ns2:CountryName>
+                  <ns2:CountryNameAR>JAPAN</ns2:CountryNameAR>
+                  <ns2:CountryCode>JP</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>266</ns2:CountryId>
+                  <ns2:CountryName>JERSEY</ns2:CountryName>
+                  <ns2:CountryNameAR>JERSEY</ns2:CountryNameAR>
+                  <ns2:CountryCode>GB</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>110</ns2:CountryId>
+                  <ns2:CountryName>JORDAN</ns2:CountryName>
+                  <ns2:CountryNameAR>JORDAN</ns2:CountryNameAR>
+                  <ns2:CountryCode>JO</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>111</ns2:CountryId>
+                  <ns2:CountryName>KAZAKHSTAN</ns2:CountryName>
+                  <ns2:CountryNameAR>KAZAKHSTAN</ns2:CountryNameAR>
+                  <ns2:CountryCode>KZ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>112</ns2:CountryId>
+                  <ns2:CountryName>KENYA</ns2:CountryName>
+                  <ns2:CountryNameAR>KENYA</ns2:CountryNameAR>
+                  <ns2:CountryCode>KE</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>113</ns2:CountryId>
+                  <ns2:CountryName>KIRIBATI</ns2:CountryName>
+                  <ns2:CountryNameAR>KIRIBATI</ns2:CountryNameAR>
+                  <ns2:CountryCode>KI</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>114</ns2:CountryId>
+                  <ns2:CountryName>KOREA NORTH</ns2:CountryName>
+                  <ns2:CountryNameAR>KOREA NORTH</ns2:CountryNameAR>
+                  <ns2:CountryCode>KP</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>115</ns2:CountryId>
+                  <ns2:CountryName>KOREA SOUTH</ns2:CountryName>
+                  <ns2:CountryNameAR>KOREA SOUTH</ns2:CountryNameAR>
+                  <ns2:CountryCode>KR</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>330</ns2:CountryId>
+                  <ns2:CountryName>KOSOVO</ns2:CountryName>
+                  <ns2:CountryNameAR/>
+                  <ns2:CountryCode>KV</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>116</ns2:CountryId>
+                  <ns2:CountryName>KUWAIT</ns2:CountryName>
+                  <ns2:CountryNameAR>KUWAIT</ns2:CountryNameAR>
+                  <ns2:CountryCode>KW</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>117</ns2:CountryId>
+                  <ns2:CountryName>KYRGYSTAN</ns2:CountryName>
+                  <ns2:CountryNameAR>KYRGYSTAN</ns2:CountryNameAR>
+                  <ns2:CountryCode>KG</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>118</ns2:CountryId>
+                  <ns2:CountryName>LAO</ns2:CountryName>
+                  <ns2:CountryNameAR>LAO</ns2:CountryNameAR>
+                  <ns2:CountryCode>LA</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>312</ns2:CountryId>
+                  <ns2:CountryName>Laos</ns2:CountryName>
+                  <ns2:CountryNameAR>Laos</ns2:CountryNameAR>
+                  <ns2:CountryCode>LA</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>119</ns2:CountryId>
+                  <ns2:CountryName>LATVIA</ns2:CountryName>
+                  <ns2:CountryNameAR>LATVIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>LV</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>120</ns2:CountryId>
+                  <ns2:CountryName>LEBANON</ns2:CountryName>
+                  <ns2:CountryNameAR>LEBANON</ns2:CountryNameAR>
+                  <ns2:CountryCode>LB</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>121</ns2:CountryId>
+                  <ns2:CountryName>LESOTHO</ns2:CountryName>
+                  <ns2:CountryNameAR>LESOTHO</ns2:CountryNameAR>
+                  <ns2:CountryCode>LS</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>122</ns2:CountryId>
+                  <ns2:CountryName>LIBERIA</ns2:CountryName>
+                  <ns2:CountryNameAR>LIBERIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>LR</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>123</ns2:CountryId>
+                  <ns2:CountryName>LIBYA</ns2:CountryName>
+                  <ns2:CountryNameAR>LIBYA</ns2:CountryNameAR>
+                  <ns2:CountryCode>LY</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>125</ns2:CountryId>
+                  <ns2:CountryName>LIECHTENSTEIN</ns2:CountryName>
+                  <ns2:CountryNameAR>LIECHTENSTEIN</ns2:CountryNameAR>
+                  <ns2:CountryCode>LI</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>126</ns2:CountryId>
+                  <ns2:CountryName>LITHUANIA</ns2:CountryName>
+                  <ns2:CountryNameAR>LITHUANIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>LT</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>128</ns2:CountryId>
+                  <ns2:CountryName>LUXEMBOURG</ns2:CountryName>
+                  <ns2:CountryNameAR>LUXEMBOURG</ns2:CountryNameAR>
+                  <ns2:CountryCode>LU</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>129</ns2:CountryId>
+                  <ns2:CountryName>MACAO</ns2:CountryName>
+                  <ns2:CountryNameAR>MACAO</ns2:CountryNameAR>
+                  <ns2:CountryCode>MO</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>313</ns2:CountryId>
+                  <ns2:CountryName>Macau</ns2:CountryName>
+                  <ns2:CountryNameAR>Macau</ns2:CountryNameAR>
+                  <ns2:CountryCode>MO</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>130</ns2:CountryId>
+                  <ns2:CountryName>MACEDONIA</ns2:CountryName>
+                  <ns2:CountryNameAR>MACEDONIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>MK</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>131</ns2:CountryId>
+                  <ns2:CountryName>MADAGASCAR</ns2:CountryName>
+                  <ns2:CountryNameAR>MADAGASCAR</ns2:CountryNameAR>
+                  <ns2:CountryCode>MG</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>132</ns2:CountryId>
+                  <ns2:CountryName>MADEIRA</ns2:CountryName>
+                  <ns2:CountryNameAR>MADEIRA</ns2:CountryNameAR>
+                  <ns2:CountryCode>132</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>133</ns2:CountryId>
+                  <ns2:CountryName>MALAWI</ns2:CountryName>
+                  <ns2:CountryNameAR>MALAWI</ns2:CountryNameAR>
+                  <ns2:CountryCode>MW</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>134</ns2:CountryId>
+                  <ns2:CountryName>MALAYSIA</ns2:CountryName>
+                  <ns2:CountryNameAR>MALAYSIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>MY</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>135</ns2:CountryId>
+                  <ns2:CountryName>MALDIVES</ns2:CountryName>
+                  <ns2:CountryNameAR>MALDIVES</ns2:CountryNameAR>
+                  <ns2:CountryCode>MV</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>136</ns2:CountryId>
+                  <ns2:CountryName>MALI</ns2:CountryName>
+                  <ns2:CountryNameAR>MALI</ns2:CountryNameAR>
+                  <ns2:CountryCode>ML</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>137</ns2:CountryId>
+                  <ns2:CountryName>MALTA</ns2:CountryName>
+                  <ns2:CountryNameAR>MALTA</ns2:CountryNameAR>
+                  <ns2:CountryCode>MT</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>139</ns2:CountryId>
+                  <ns2:CountryName>MARIANA IS.</ns2:CountryName>
+                  <ns2:CountryNameAR>MARIANA IS.</ns2:CountryNameAR>
+                  <ns2:CountryCode>MP</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>140</ns2:CountryId>
+                  <ns2:CountryName>MARSHALL ISLANDS</ns2:CountryName>
+                  <ns2:CountryNameAR>MARSHALL ISLANDS</ns2:CountryNameAR>
+                  <ns2:CountryCode>MH</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>141</ns2:CountryId>
+                  <ns2:CountryName>MARTINIQUE</ns2:CountryName>
+                  <ns2:CountryNameAR>MARTINIQUE</ns2:CountryNameAR>
+                  <ns2:CountryCode>MQ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>142</ns2:CountryId>
+                  <ns2:CountryName>MAURITANIA</ns2:CountryName>
+                  <ns2:CountryNameAR>MAURITANIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>MR</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>143</ns2:CountryId>
+                  <ns2:CountryName>MAURITIUS</ns2:CountryName>
+                  <ns2:CountryNameAR>MAURITIUS</ns2:CountryNameAR>
+                  <ns2:CountryCode>MU</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>250</ns2:CountryId>
+                  <ns2:CountryName>MAYOTTE</ns2:CountryName>
+                  <ns2:CountryNameAR>MAYOTTE</ns2:CountryNameAR>
+                  <ns2:CountryCode>YT</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>144</ns2:CountryId>
+                  <ns2:CountryName>MEXICO</ns2:CountryName>
+                  <ns2:CountryNameAR>MEXICO</ns2:CountryNameAR>
+                  <ns2:CountryCode>MX</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>262</ns2:CountryId>
+                  <ns2:CountryName>MICRONESIA (Federated States of)</ns2:CountryName>
+                  <ns2:CountryNameAR>MICRONESIA (Federated States of)</ns2:CountryNameAR>
+                  <ns2:CountryCode>FM</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>145</ns2:CountryId>
+                  <ns2:CountryName>MOLDOVA</ns2:CountryName>
+                  <ns2:CountryNameAR>MOLDOVA</ns2:CountryNameAR>
+                  <ns2:CountryCode>MD</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>146</ns2:CountryId>
+                  <ns2:CountryName>MONACO</ns2:CountryName>
+                  <ns2:CountryNameAR>MONACO</ns2:CountryNameAR>
+                  <ns2:CountryCode>MC</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>147</ns2:CountryId>
+                  <ns2:CountryName>MONGOLIA</ns2:CountryName>
+                  <ns2:CountryNameAR>MONGOLIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>MN</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>275</ns2:CountryId>
+                  <ns2:CountryName>MONTENEGRO</ns2:CountryName>
+                  <ns2:CountryNameAR>MONTENEGRO</ns2:CountryNameAR>
+                  <ns2:CountryCode>ME</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>148</ns2:CountryId>
+                  <ns2:CountryName>MONTSERRAT</ns2:CountryName>
+                  <ns2:CountryNameAR>MONTSERRAT</ns2:CountryNameAR>
+                  <ns2:CountryCode>MS</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>149</ns2:CountryId>
+                  <ns2:CountryName>MOROCCO</ns2:CountryName>
+                  <ns2:CountryNameAR>MOROCCO</ns2:CountryNameAR>
+                  <ns2:CountryCode>MA</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>150</ns2:CountryId>
+                  <ns2:CountryName>MOZAMBIQUE</ns2:CountryName>
+                  <ns2:CountryNameAR>MOZAMBIQUE</ns2:CountryNameAR>
+                  <ns2:CountryCode>MZ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>151</ns2:CountryId>
+                  <ns2:CountryName>MYANMAR</ns2:CountryName>
+                  <ns2:CountryNameAR>MYANMAR</ns2:CountryNameAR>
+                  <ns2:CountryCode>MM</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>152</ns2:CountryId>
+                  <ns2:CountryName>NAMIBIA</ns2:CountryName>
+                  <ns2:CountryNameAR>NAMIBIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>NA</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>314</ns2:CountryId>
+                  <ns2:CountryName>Naura Republic</ns2:CountryName>
+                  <ns2:CountryNameAR>Naura Republic</ns2:CountryNameAR>
+                  <ns2:CountryCode>NR</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>153</ns2:CountryId>
+                  <ns2:CountryName>NAURU IS.</ns2:CountryName>
+                  <ns2:CountryNameAR>NAURU IS.</ns2:CountryNameAR>
+                  <ns2:CountryCode>NR</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>154</ns2:CountryId>
+                  <ns2:CountryName>NEPAL</ns2:CountryName>
+                  <ns2:CountryNameAR>NEPAL</ns2:CountryNameAR>
+                  <ns2:CountryCode>NP</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>155</ns2:CountryId>
+                  <ns2:CountryName>NETHERLANDS</ns2:CountryName>
+                  <ns2:CountryNameAR>NETHERLANDS</ns2:CountryNameAR>
+                  <ns2:CountryCode>NL</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>156</ns2:CountryId>
+                  <ns2:CountryName>NETHERLANDS ANTILLES</ns2:CountryName>
+                  <ns2:CountryNameAR>NETHERLANDS ANTILLES</ns2:CountryNameAR>
+                  <ns2:CountryCode>CW</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>315</ns2:CountryId>
+                  <ns2:CountryName>Netherlands, Antilles</ns2:CountryName>
+                  <ns2:CountryNameAR>Netherlands, Antilles</ns2:CountryNameAR>
+                  <ns2:CountryCode>AN</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>317</ns2:CountryId>
+                  <ns2:CountryName>Nevis</ns2:CountryName>
+                  <ns2:CountryNameAR>Nevis</ns2:CountryNameAR>
+                  <ns2:CountryCode>XN</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>157</ns2:CountryId>
+                  <ns2:CountryName>NEW CALEDONIA</ns2:CountryName>
+                  <ns2:CountryNameAR>NEW CALEDONIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>NC</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>158</ns2:CountryId>
+                  <ns2:CountryName>NEW ZEALAND</ns2:CountryName>
+                  <ns2:CountryNameAR>NEW ZEALAND</ns2:CountryNameAR>
+                  <ns2:CountryCode>NZ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>159</ns2:CountryId>
+                  <ns2:CountryName>NICARAGUA</ns2:CountryName>
+                  <ns2:CountryNameAR>NICARAGUA</ns2:CountryNameAR>
+                  <ns2:CountryCode>NI</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>160</ns2:CountryId>
+                  <ns2:CountryName>NIGER (REP.)</ns2:CountryName>
+                  <ns2:CountryNameAR>NIGER (REP.)</ns2:CountryNameAR>
+                  <ns2:CountryCode>NE</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>161</ns2:CountryId>
+                  <ns2:CountryName>NIGERIA</ns2:CountryName>
+                  <ns2:CountryNameAR>NIGERIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>NG</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>259</ns2:CountryId>
+                  <ns2:CountryName>NIUE</ns2:CountryName>
+                  <ns2:CountryNameAR>NIUE</ns2:CountryNameAR>
+                  <ns2:CountryCode>NU</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>162</ns2:CountryId>
+                  <ns2:CountryName>NORFOLK ISLANDS</ns2:CountryName>
+                  <ns2:CountryNameAR>NORFOLK ISLANDS</ns2:CountryNameAR>
+                  <ns2:CountryCode>NF</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>163</ns2:CountryId>
+                  <ns2:CountryName>NORWAY</ns2:CountryName>
+                  <ns2:CountryNameAR>NORWAY</ns2:CountryNameAR>
+                  <ns2:CountryCode>NO</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>165</ns2:CountryId>
+                  <ns2:CountryName>OCEAN IS.</ns2:CountryName>
+                  <ns2:CountryNameAR>OCEAN IS.</ns2:CountryNameAR>
+                  <ns2:CountryCode>165</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>164</ns2:CountryId>
+                  <ns2:CountryName>OMAN</ns2:CountryName>
+                  <ns2:CountryNameAR>OMAN</ns2:CountryNameAR>
+                  <ns2:CountryCode>OM</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>166</ns2:CountryId>
+                  <ns2:CountryName>PAKISTAN</ns2:CountryName>
+                  <ns2:CountryNameAR>PAKISTAN</ns2:CountryNameAR>
+                  <ns2:CountryCode>PK</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>263</ns2:CountryId>
+                  <ns2:CountryName>PALAU</ns2:CountryName>
+                  <ns2:CountryNameAR>PALAU</ns2:CountryNameAR>
+                  <ns2:CountryCode>PW</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>258</ns2:CountryId>
+                  <ns2:CountryName>PALESTINE</ns2:CountryName>
+                  <ns2:CountryNameAR>PALESTINE</ns2:CountryNameAR>
+                  <ns2:CountryCode>PS</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>168</ns2:CountryId>
+                  <ns2:CountryName>PANAMA REP.</ns2:CountryName>
+                  <ns2:CountryNameAR>PANAMA REP.</ns2:CountryNameAR>
+                  <ns2:CountryCode>PA</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>169</ns2:CountryId>
+                  <ns2:CountryName>PAPUA &amp; NEW GUINEA</ns2:CountryName>
+                  <ns2:CountryNameAR>PAPUA &amp; NEW GUINEA</ns2:CountryNameAR>
+                  <ns2:CountryCode>PG</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>170</ns2:CountryId>
+                  <ns2:CountryName>PARAGUAY</ns2:CountryName>
+                  <ns2:CountryNameAR>PARAGUAY</ns2:CountryNameAR>
+                  <ns2:CountryCode>PY</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>171</ns2:CountryId>
+                  <ns2:CountryName>PERU</ns2:CountryName>
+                  <ns2:CountryNameAR>PERU</ns2:CountryNameAR>
+                  <ns2:CountryCode>PE</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>172</ns2:CountryId>
+                  <ns2:CountryName>PHILIPPINES</ns2:CountryName>
+                  <ns2:CountryNameAR>PHILIPPINES</ns2:CountryNameAR>
+                  <ns2:CountryCode>PH</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>174</ns2:CountryId>
+                  <ns2:CountryName>PITCAIRN  IS.</ns2:CountryName>
+                  <ns2:CountryNameAR>PITCAIRN  IS.</ns2:CountryNameAR>
+                  <ns2:CountryCode>PN</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>175</ns2:CountryId>
+                  <ns2:CountryName>POLAND</ns2:CountryName>
+                  <ns2:CountryNameAR>POLAND</ns2:CountryNameAR>
+                  <ns2:CountryCode>PL</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>176</ns2:CountryId>
+                  <ns2:CountryName>PORTUGAL</ns2:CountryName>
+                  <ns2:CountryNameAR>PORTUGAL</ns2:CountryNameAR>
+                  <ns2:CountryCode>PT</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>177</ns2:CountryId>
+                  <ns2:CountryName>PUERTO RICO</ns2:CountryName>
+                  <ns2:CountryNameAR>PUERTO RICO</ns2:CountryNameAR>
+                  <ns2:CountryCode>PR</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>178</ns2:CountryId>
+                  <ns2:CountryName>QATAR</ns2:CountryName>
+                  <ns2:CountryNameAR>QATAR</ns2:CountryNameAR>
+                  <ns2:CountryCode>QA</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>179</ns2:CountryId>
+                  <ns2:CountryName>REUNION</ns2:CountryName>
+                  <ns2:CountryNameAR>REUNION</ns2:CountryNameAR>
+                  <ns2:CountryCode>RE</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>252</ns2:CountryId>
+                  <ns2:CountryName>RODRIGUE IS.</ns2:CountryName>
+                  <ns2:CountryNameAR>RODRIGUE IS.</ns2:CountryNameAR>
+                  <ns2:CountryCode>252</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>180</ns2:CountryId>
+                  <ns2:CountryName>ROMANIA</ns2:CountryName>
+                  <ns2:CountryNameAR>ROMANIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>RO</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>181</ns2:CountryId>
+                  <ns2:CountryName>RUSSIAN FEDERATION</ns2:CountryName>
+                  <ns2:CountryNameAR>RUSSIAN FEDERATION</ns2:CountryNameAR>
+                  <ns2:CountryCode>RU</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>182</ns2:CountryId>
+                  <ns2:CountryName>RWANDA</ns2:CountryName>
+                  <ns2:CountryNameAR>RWANDA</ns2:CountryNameAR>
+                  <ns2:CountryCode>RW</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>253</ns2:CountryId>
+                  <ns2:CountryName>SABA (Neth. Antilles)</ns2:CountryName>
+                  <ns2:CountryNameAR>SABA (Neth. Antilles)</ns2:CountryNameAR>
+                  <ns2:CountryCode>AN</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>183</ns2:CountryId>
+                  <ns2:CountryName>SABAH  (MALAYSIA)</ns2:CountryName>
+                  <ns2:CountryNameAR>SABAH  (MALAYSIA)</ns2:CountryNameAR>
+                  <ns2:CountryCode>183</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>254</ns2:CountryId>
+                  <ns2:CountryName>SAINT BARTHALEMY</ns2:CountryName>
+                  <ns2:CountryNameAR>SAINT BARTHALEMY</ns2:CountryNameAR>
+                  <ns2:CountryCode>GP</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>184</ns2:CountryId>
+                  <ns2:CountryName>SAINT HELENA</ns2:CountryName>
+                  <ns2:CountryNameAR>SAINT HELENA</ns2:CountryNameAR>
+                  <ns2:CountryCode>SH</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>185</ns2:CountryId>
+                  <ns2:CountryName>SAINT KITTS-NEVIS</ns2:CountryName>
+                  <ns2:CountryNameAR>SAINT KITTS-NEVIS</ns2:CountryNameAR>
+                  <ns2:CountryCode>KN</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>186</ns2:CountryId>
+                  <ns2:CountryName>SAINT LUCIA</ns2:CountryName>
+                  <ns2:CountryNameAR>SAINT LUCIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>LC</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>187</ns2:CountryId>
+                  <ns2:CountryName>SAINT PIERRE  &amp; MIQUE</ns2:CountryName>
+                  <ns2:CountryNameAR>SAINT PIERRE  &amp; MIQUE</ns2:CountryNameAR>
+                  <ns2:CountryCode>PM</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>188</ns2:CountryId>
+                  <ns2:CountryName>SAINT VINCENT &amp; GRENADINES</ns2:CountryName>
+                  <ns2:CountryNameAR>SAINT VINCENT &amp; GRENADINES</ns2:CountryNameAR>
+                  <ns2:CountryCode>VC</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>328</ns2:CountryId>
+                  <ns2:CountryName>Saipan</ns2:CountryName>
+                  <ns2:CountryNameAR>Saipan</ns2:CountryNameAR>
+                  <ns2:CountryCode>MP</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>318</ns2:CountryId>
+                  <ns2:CountryName>Samoa</ns2:CountryName>
+                  <ns2:CountryNameAR>Samoa</ns2:CountryNameAR>
+                  <ns2:CountryCode>WS</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>189</ns2:CountryId>
+                  <ns2:CountryName>SAMOA AMERICAN</ns2:CountryName>
+                  <ns2:CountryNameAR>SAMOA AMERICAN</ns2:CountryNameAR>
+                  <ns2:CountryCode>AS</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>190</ns2:CountryId>
+                  <ns2:CountryName>SAMOA WESTERN</ns2:CountryName>
+                  <ns2:CountryNameAR>SAMOA WESTERN</ns2:CountryNameAR>
+                  <ns2:CountryCode>WS</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>191</ns2:CountryId>
+                  <ns2:CountryName>SAN MARINO</ns2:CountryName>
+                  <ns2:CountryNameAR>SAN MARINO</ns2:CountryNameAR>
+                  <ns2:CountryCode>SM</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>192</ns2:CountryId>
+                  <ns2:CountryName>SAO TOME  &amp; PRINCIPE</ns2:CountryName>
+                  <ns2:CountryNameAR>SAO TOME  &amp; PRINCIPE</ns2:CountryNameAR>
+                  <ns2:CountryCode>ST</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>194</ns2:CountryId>
+                  <ns2:CountryName>SAUDI ARABIA</ns2:CountryName>
+                  <ns2:CountryNameAR>SAUDI ARABIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>SA</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>195</ns2:CountryId>
+                  <ns2:CountryName>SENEGAL</ns2:CountryName>
+                  <ns2:CountryNameAR>SENEGAL</ns2:CountryNameAR>
+                  <ns2:CountryCode>SN</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>244</ns2:CountryId>
+                  <ns2:CountryName>SERBIA</ns2:CountryName>
+                  <ns2:CountryNameAR>SERBIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>RS</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>196</ns2:CountryId>
+                  <ns2:CountryName>SEYCHELLES</ns2:CountryName>
+                  <ns2:CountryNameAR>SEYCHELLES</ns2:CountryNameAR>
+                  <ns2:CountryCode>SC</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>197</ns2:CountryId>
+                  <ns2:CountryName>SIERRA LEONE</ns2:CountryName>
+                  <ns2:CountryNameAR>SIERRA LEONE</ns2:CountryNameAR>
+                  <ns2:CountryCode>SL</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>198</ns2:CountryId>
+                  <ns2:CountryName>SINGAPORE</ns2:CountryName>
+                  <ns2:CountryNameAR>SINGAPORE</ns2:CountryNameAR>
+                  <ns2:CountryCode>SG</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>199</ns2:CountryId>
+                  <ns2:CountryName>SLOVAKIA</ns2:CountryName>
+                  <ns2:CountryNameAR>SLOVAKIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>SK</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>200</ns2:CountryId>
+                  <ns2:CountryName>SLOVENIA</ns2:CountryName>
+                  <ns2:CountryNameAR>SLOVENIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>SI</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>201</ns2:CountryId>
+                  <ns2:CountryName>SOLOMON IS.</ns2:CountryName>
+                  <ns2:CountryNameAR>SOLOMON IS.</ns2:CountryNameAR>
+                  <ns2:CountryCode>SB</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>202</ns2:CountryId>
+                  <ns2:CountryName>SOMALI REP.</ns2:CountryName>
+                  <ns2:CountryNameAR>SOMALI REP.</ns2:CountryNameAR>
+                  <ns2:CountryCode>SO</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>329</ns2:CountryId>
+                  <ns2:CountryName>Somaliland</ns2:CountryName>
+                  <ns2:CountryNameAR>Somaliland</ns2:CountryNameAR>
+                  <ns2:CountryCode>SS</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>203</ns2:CountryId>
+                  <ns2:CountryName>SOUTH AFRICA</ns2:CountryName>
+                  <ns2:CountryNameAR>SOUTH AFRICA</ns2:CountryNameAR>
+                  <ns2:CountryCode>ZA</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>204</ns2:CountryId>
+                  <ns2:CountryName>SOUTH GEORGIA</ns2:CountryName>
+                  <ns2:CountryNameAR>SOUTH GEORGIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>GS</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>205</ns2:CountryId>
+                  <ns2:CountryName>SOUTH SANDWICH</ns2:CountryName>
+                  <ns2:CountryNameAR>SOUTH SANDWICH</ns2:CountryNameAR>
+                  <ns2:CountryCode>GS</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>278</ns2:CountryId>
+                  <ns2:CountryName>SOUTH SUDAN</ns2:CountryName>
+                  <ns2:CountryNameAR>SOUTH SUDAN</ns2:CountryNameAR>
+                  <ns2:CountryCode>SS</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>206</ns2:CountryId>
+                  <ns2:CountryName>SPAIN</ns2:CountryName>
+                  <ns2:CountryNameAR>SPAIN</ns2:CountryNameAR>
+                  <ns2:CountryCode>ES</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>207</ns2:CountryId>
+                  <ns2:CountryName>SPANISH TERR. OF NORT</ns2:CountryName>
+                  <ns2:CountryNameAR>SPANISH TERR. OF NORT</ns2:CountryNameAR>
+                  <ns2:CountryCode>207</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>208</ns2:CountryId>
+                  <ns2:CountryName>SRI LANKA</ns2:CountryName>
+                  <ns2:CountryNameAR>SRI LANKA</ns2:CountryNameAR>
+                  <ns2:CountryCode>LK</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>319</ns2:CountryId>
+                  <ns2:CountryName>St. Barthelemy</ns2:CountryName>
+                  <ns2:CountryNameAR>St. Barthelemy</ns2:CountryNameAR>
+                  <ns2:CountryCode>XY</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>320</ns2:CountryId>
+                  <ns2:CountryName>St. Eustatius</ns2:CountryName>
+                  <ns2:CountryNameAR>St. Eustatius</ns2:CountryNameAR>
+                  <ns2:CountryCode>XE</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>321</ns2:CountryId>
+                  <ns2:CountryName>St. Kitts</ns2:CountryName>
+                  <ns2:CountryNameAR>St. Kitts</ns2:CountryNameAR>
+                  <ns2:CountryCode>KN</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>322</ns2:CountryId>
+                  <ns2:CountryName>St. Lucia</ns2:CountryName>
+                  <ns2:CountryNameAR>St. Lucia</ns2:CountryNameAR>
+                  <ns2:CountryCode>LC</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>323</ns2:CountryId>
+                  <ns2:CountryName>St. Maarten</ns2:CountryName>
+                  <ns2:CountryNameAR>St. Maarten</ns2:CountryNameAR>
+                  <ns2:CountryCode>XM</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>324</ns2:CountryId>
+                  <ns2:CountryName>St. Vincent</ns2:CountryName>
+                  <ns2:CountryNameAR>St. Vincent</ns2:CountryNameAR>
+                  <ns2:CountryCode>VC</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>277</ns2:CountryId>
+                  <ns2:CountryName>ST.MAARTEN</ns2:CountryName>
+                  <ns2:CountryNameAR>ST.MAARTEN</ns2:CountryNameAR>
+                  <ns2:CountryCode>SX</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>209</ns2:CountryId>
+                  <ns2:CountryName>SUDAN</ns2:CountryName>
+                  <ns2:CountryNameAR>SUDAN</ns2:CountryNameAR>
+                  <ns2:CountryCode>SD</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>210</ns2:CountryId>
+                  <ns2:CountryName>SURINAM</ns2:CountryName>
+                  <ns2:CountryNameAR>SURINAM</ns2:CountryNameAR>
+                  <ns2:CountryCode>SR</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>211</ns2:CountryId>
+                  <ns2:CountryName>SWAZILAND</ns2:CountryName>
+                  <ns2:CountryNameAR>SWAZILAND</ns2:CountryNameAR>
+                  <ns2:CountryCode>SZ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>212</ns2:CountryId>
+                  <ns2:CountryName>SWEDEN</ns2:CountryName>
+                  <ns2:CountryNameAR>SWEDEN</ns2:CountryNameAR>
+                  <ns2:CountryCode>SE</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>213</ns2:CountryId>
+                  <ns2:CountryName>SWITZERLAND</ns2:CountryName>
+                  <ns2:CountryNameAR>SWITZERLAND</ns2:CountryNameAR>
+                  <ns2:CountryCode>CH</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>214</ns2:CountryId>
+                  <ns2:CountryName>SYRIA</ns2:CountryName>
+                  <ns2:CountryNameAR>SYRIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>SY</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>215</ns2:CountryId>
+                  <ns2:CountryName>TAHITI  IS.</ns2:CountryName>
+                  <ns2:CountryNameAR>TAHITI  IS.</ns2:CountryNameAR>
+                  <ns2:CountryCode>PF</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>216</ns2:CountryId>
+                  <ns2:CountryName>TAIWAN</ns2:CountryName>
+                  <ns2:CountryNameAR>TAIWAN</ns2:CountryNameAR>
+                  <ns2:CountryCode>TW</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>217</ns2:CountryId>
+                  <ns2:CountryName>TAJIKISTAN</ns2:CountryName>
+                  <ns2:CountryNameAR>TAJIKISTAN</ns2:CountryNameAR>
+                  <ns2:CountryCode>TJ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>218</ns2:CountryId>
+                  <ns2:CountryName>TANZANIA</ns2:CountryName>
+                  <ns2:CountryNameAR>TANZANIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>TZ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>257</ns2:CountryId>
+                  <ns2:CountryName>TASMANIA</ns2:CountryName>
+                  <ns2:CountryNameAR>TASMANIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>AU</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>219</ns2:CountryId>
+                  <ns2:CountryName>THAILAND</ns2:CountryName>
+                  <ns2:CountryNameAR>THAILAND</ns2:CountryNameAR>
+                  <ns2:CountryCode>TH</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>220</ns2:CountryId>
+                  <ns2:CountryName>TOGO</ns2:CountryName>
+                  <ns2:CountryNameAR>TOGO</ns2:CountryNameAR>
+                  <ns2:CountryCode>TG</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>221</ns2:CountryId>
+                  <ns2:CountryName>TONGA</ns2:CountryName>
+                  <ns2:CountryNameAR>TONGA</ns2:CountryNameAR>
+                  <ns2:CountryCode>TO</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>222</ns2:CountryId>
+                  <ns2:CountryName>TRINIDAD  &amp; TOBAGO</ns2:CountryName>
+                  <ns2:CountryNameAR>TRINIDAD  &amp; TOBAGO</ns2:CountryNameAR>
+                  <ns2:CountryCode>TT</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>223</ns2:CountryId>
+                  <ns2:CountryName>TRISTAN DE CUNHA</ns2:CountryName>
+                  <ns2:CountryNameAR>TRISTAN DE CUNHA</ns2:CountryNameAR>
+                  <ns2:CountryCode>SH</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>224</ns2:CountryId>
+                  <ns2:CountryName>TUNISIA</ns2:CountryName>
+                  <ns2:CountryNameAR>TUNISIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>TN</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>225</ns2:CountryId>
+                  <ns2:CountryName>TURKEY</ns2:CountryName>
+                  <ns2:CountryNameAR>TURKEY</ns2:CountryNameAR>
+                  <ns2:CountryCode>TR</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>226</ns2:CountryId>
+                  <ns2:CountryName>TURKMENISTAN</ns2:CountryName>
+                  <ns2:CountryNameAR>TURKMENISTAN</ns2:CountryNameAR>
+                  <ns2:CountryCode>TM</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>227</ns2:CountryId>
+                  <ns2:CountryName>TURKS  &amp; CAICOS IS.</ns2:CountryName>
+                  <ns2:CountryNameAR>TURKS  &amp; CAICOS IS.</ns2:CountryNameAR>
+                  <ns2:CountryCode>TC</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>228</ns2:CountryId>
+                  <ns2:CountryName>TUVALU</ns2:CountryName>
+                  <ns2:CountryNameAR>TUVALU</ns2:CountryNameAR>
+                  <ns2:CountryCode>TV</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>229</ns2:CountryId>
+                  <ns2:CountryName>UGANDA</ns2:CountryName>
+                  <ns2:CountryNameAR>UGANDA</ns2:CountryNameAR>
+                  <ns2:CountryCode>UG</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>230</ns2:CountryId>
+                  <ns2:CountryName>UKRAINE</ns2:CountryName>
+                  <ns2:CountryNameAR>UKRAINE</ns2:CountryNameAR>
+                  <ns2:CountryCode>UA</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>971</ns2:CountryId>
+                  <ns2:CountryName>UNITED ARAB EMIRATES</ns2:CountryName>
+                  <ns2:CountryNameAR>الإمارات العربية المتحدة</ns2:CountryNameAR>
+                  <ns2:CountryCode>AE</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>231</ns2:CountryId>
+                  <ns2:CountryName>UNITED STATES OF AMERICA</ns2:CountryName>
+                  <ns2:CountryNameAR>UNITED STATES OF AMERICA</ns2:CountryNameAR>
+                  <ns2:CountryCode>US</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>232</ns2:CountryId>
+                  <ns2:CountryName>URUGUAY</ns2:CountryName>
+                  <ns2:CountryNameAR>URUGUAY</ns2:CountryNameAR>
+                  <ns2:CountryCode>UY</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>233</ns2:CountryId>
+                  <ns2:CountryName>UZBEKISTAN</ns2:CountryName>
+                  <ns2:CountryNameAR>UZBEKISTAN</ns2:CountryNameAR>
+                  <ns2:CountryCode>UZ</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>234</ns2:CountryId>
+                  <ns2:CountryName>VANUATU</ns2:CountryName>
+                  <ns2:CountryNameAR>VANUATU</ns2:CountryNameAR>
+                  <ns2:CountryCode>VU</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>235</ns2:CountryId>
+                  <ns2:CountryName>VATICAN CITY STATE</ns2:CountryName>
+                  <ns2:CountryNameAR>VATICAN CITY STATE</ns2:CountryNameAR>
+                  <ns2:CountryCode>VA</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>236</ns2:CountryId>
+                  <ns2:CountryName>VENEZUELA</ns2:CountryName>
+                  <ns2:CountryNameAR>VENEZUELA</ns2:CountryNameAR>
+                  <ns2:CountryCode>VE</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>237</ns2:CountryId>
+                  <ns2:CountryName>VIETNAM</ns2:CountryName>
+                  <ns2:CountryNameAR>VIETNAM</ns2:CountryNameAR>
+                  <ns2:CountryCode>VN</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>239</ns2:CountryId>
+                  <ns2:CountryName>VIRGIN IS. (BRITISH)</ns2:CountryName>
+                  <ns2:CountryNameAR>VIRGIN IS. (BRITISH)</ns2:CountryNameAR>
+                  <ns2:CountryCode>VG</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>238</ns2:CountryId>
+                  <ns2:CountryName>VIRGIN IS. (U.S.A)</ns2:CountryName>
+                  <ns2:CountryNameAR>VIRGIN IS. (U.S.A)</ns2:CountryNameAR>
+                  <ns2:CountryCode>VI</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>325</ns2:CountryId>
+                  <ns2:CountryName>Virgin Island (British)</ns2:CountryName>
+                  <ns2:CountryNameAR>Virgin Island (British)</ns2:CountryNameAR>
+                  <ns2:CountryCode>VG</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>241</ns2:CountryId>
+                  <ns2:CountryName>WAKE</ns2:CountryName>
+                  <ns2:CountryNameAR>WAKE</ns2:CountryNameAR>
+                  <ns2:CountryCode>241</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>240</ns2:CountryId>
+                  <ns2:CountryName>WALLIS AND FUTUNA</ns2:CountryName>
+                  <ns2:CountryNameAR>WALLIS AND FUTUNA</ns2:CountryNameAR>
+                  <ns2:CountryCode>WF</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>242</ns2:CountryId>
+                  <ns2:CountryName>WASHINGTON  IS.</ns2:CountryName>
+                  <ns2:CountryNameAR>WASHINGTON  IS.</ns2:CountryNameAR>
+                  <ns2:CountryCode>US</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>310</ns2:CountryId>
+                  <ns2:CountryName>Western Samoa</ns2:CountryName>
+                  <ns2:CountryNameAR>Western Samoa</ns2:CountryNameAR>
+                  <ns2:CountryCode>WS</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>243</ns2:CountryId>
+                  <ns2:CountryName>YEMEN REP.</ns2:CountryName>
+                  <ns2:CountryNameAR>YEMEN REP.</ns2:CountryNameAR>
+                  <ns2:CountryCode>YE</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>297</ns2:CountryId>
+                  <ns2:CountryName>Yougoslavia</ns2:CountryName>
+                  <ns2:CountryNameAR>Yougoslavia</ns2:CountryNameAR>
+                  <ns2:CountryCode>RS</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>311</ns2:CountryId>
+                  <ns2:CountryName>Zaire</ns2:CountryName>
+                  <ns2:CountryNameAR>Zaire</ns2:CountryNameAR>
+                  <ns2:CountryCode>CD</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>245</ns2:CountryId>
+                  <ns2:CountryName>ZAMBIA</ns2:CountryName>
+                  <ns2:CountryNameAR>ZAMBIA</ns2:CountryNameAR>
+                  <ns2:CountryCode>ZM</ns2:CountryCode>
+               </ns2:Country>
+               <ns2:Country>
+                  <ns2:CountryId>246</ns2:CountryId>
+                  <ns2:CountryName>ZIMBABWE</ns2:CountryName>
+                  <ns2:CountryNameAR>ZIMBABWE</ns2:CountryNameAR>
+                  <ns2:CountryCode>ZW</ns2:CountryCode>
+               </ns2:Country>
+            </ns2:Countries>
+         </ns2:CountriesResponse>
+      </ns2:GetCountriesResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
