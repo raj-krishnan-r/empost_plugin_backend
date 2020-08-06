@@ -1,23 +1,17 @@
 <?php
+/**
+ * Receives order details via POST.
+ * Parses through items.
+ * Sends a SOAP request corresponding to each order.
+ * Stores the awb number and label returned into a local database.
+ * Responds with a json string with awbnumber and process status.
+ */
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
+ini_set('max_execution_time', 120);
+
 error_reporting(E_ALL);
-
-/*mysql*/
-
-$servername = "localhost";
-$username = "id14351568_raj";
-$password = "8Countries@world";
-$dbname = "id14351568_essentials";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-
-/**/
+include('connect.php');
 
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, POST');
@@ -38,10 +32,10 @@ class CustomRequest
 class Result{
     
 }
-
 $responses=array();
-
 $income = json_decode($_POST['datum']);
+
+
 foreach($income->items as $item)
 {
    //special routine
@@ -308,14 +302,14 @@ function sendSOAP($xml,$orderID,$fulfillmentOrderID,$conn)
 */
 if($dc!=='')
 {
-$sql = "INSERT INTO awb (id, userid, billString,ordername)
-VALUES (0, 1, '$cd','$orderID') ON DUPLICATE KEY UPDATE billString = '$cd'";
-
-if ($conn->query($sql) === TRUE) {
-$res->labelStored = true;
-} else {
-$res->labelStored=false;
-}
+   $sql = "INSERT INTO awb (id, userid, billString,ordername)
+   VALUES (0, 1, '$cd','$orderID') ON DUPLICATE KEY UPDATE billString = '$cd'";
+   
+   if ($conn->query($sql) === TRUE) {
+   $res->labelStored = true;
+   } else {
+   $res->labelStored=false;
+   }
 }
 
 array_push($GLOBALS['responses'],$res);

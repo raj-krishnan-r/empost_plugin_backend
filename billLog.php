@@ -1,4 +1,6 @@
-
+<?php
+require('connect.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,31 +10,41 @@ Envelope of Scale
 </head>
 <body>
 <h1>Bill log</h1>
-<h3>Last 50</h3>
-<table>
+<table style="border:1px dotted black;">
 <thead>
-<th><td>Order name</td></th>
+<tr><th>Order name</th><th>Time +4:00</th><th>Time +5:30</th></tr>
 </thead>
 <tbody>
 <?php
-$servername = "localhost";
-$username = "id14351568_raj";
-$password = "8Countries@world";
-$dbname = "id14351568_essentials";
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-$sql = "SELECT ordername from awb order by dated DESC limit 50";
-$result = $conn->query($sql);
+$stmt = $conn->prepare("SELECT ordername,dated from awb order by dated DESC");
   // output data of each row
- while($row = $result->fetch_assoc()) {
+$stmt->execute();
+$result = $stmt->get_result();
+  while($row = $result->fetch_assoc()) {
      $url = substr($row['ordername'],1);
-    echo '<tr><td><a href="http://cdnpwave.000webhostapp.com/getBill.php?orderid='.$url.'">'.$row['ordername'].'</a></td></tr>'; 
+    echo '<tr style="border:1px dotted black;"><td style="border:1px dotted black;"><a href="getBill.php?orderid='.$url.'">'.$row['ordername'].'</a></td>';
+    echo '<td style="border:1px dotted black;">'.dateFormatter($row['dated'],'d-F-Y H:m:i','Asia/Dubai').'</td>';
+    echo '<td style="border:1px dotted black;">'.dateFormatter($row['dated'],'d-F-Y H:m:i','Asia/Calcutta').'</td></tr>';
+
  }
+
+
+
 $conn->close();
+
+function dateFormatter($datetime,$format,$timezone)
+{
+$gmt = new DateTimeZone('GMT');
+$server = new DateTime($datetime,$gmt);
+
+$user = new DateTimeZone($timezone);
+$offset = $user->getOffset($server);
+
+$myinterval = DateInterval::createFromDateString((string)$offset . 'seconds');
+$server->add($myinterval);
+$result = $server->format($format);
+return $result;
+}
 ?> 
 </tbody>
 </body>

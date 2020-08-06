@@ -1,23 +1,16 @@
 <?php
+/**
+ * Receives order details via POST.
+ * Parses through items.
+ * Sends a SOAP request corresponding to each order.
+ * Stores the awb number and label returned into a local database.
+ * Responds with a json string with awbnumber and process status.
+ */
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
+
 error_reporting(E_ALL);
-
-/*mysql*/
-
-$servername = "localhost";
-$username = "id14351568_raj";
-$password = "8Countries@world";
-$dbname = "id14351568_essentials";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-
-/**/
+include('connect.php');
 
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, POST');
@@ -38,12 +31,19 @@ class CustomRequest
 class Result{
     
 }
-
 $responses=array();
-
 $income = json_decode($_POST['datum']);
+
+
 foreach($income->items as $item)
 {
+   //special routine
+   $currency = $item->totalPriceSet->shopMoney->currencyCode;
+   if($currency=='')
+   {
+      $currency="AED";
+   }
+
     $booking = new BookRequest();
     $message = new Message();
     $customs = new CustomDeclaration();
@@ -71,7 +71,7 @@ foreach($income->items as $item)
     $message->ReceiverCountry=getCountryId($item->shippingAddress->countryCodeV2);
     //$message->ReceiverCountry='971';
     $message->ReferenceNo=$item->name;
-    $message->ReferenceNo1=NULL;
+    $message->ReferenceNo1=$item->invoice;
     $message->ReferenceNo2=NULL;
     $message->ReferenceNo3=NULL;
     $message->ContentTypeCode=$income->contentType;
@@ -82,7 +82,7 @@ foreach($income->items as $item)
     $message->Registered=$income->registered;
     $message->PaymentType=$item->PaymentType;
     $message->CODAmount=$item->totalPriceSet->shopMoney->amount;
-    $message->CODCurrency=$item->totalPriceSet->shopMoney->currencyCode;
+    $message->CODCurrency=$currency;
     $message->CommodityDescription='Packagings';
     $message->Pieces=$item->pieces;
     $message->Weight = $item->totalWeight;
@@ -92,7 +92,7 @@ foreach($income->items as $item)
     $message->Height='1';
     $message->DimensionUnit='Meter';
     $message->ItemValue=$item->totalPriceSet->shopMoney->amount;
-    $message->ValueCurrency=$item->totalPriceSet->shopMoney->currencyCode;
+    $message->ValueCurrency=$currency;
     $message->ProductCode=NULL;
     $message->SpecialInstructionsID=NULL;
     $message->DeliveryInstructionsID=NULL;
@@ -107,7 +107,7 @@ foreach($income->items as $item)
      $customs->TotalUnits=$item->pieces;
      $customs->Weight=$item->totalWeight;
      $customs->Value=$item->totalPriceSet->shopMoney->amount;
-     $customs->DeclaredCurrency=$item->totalPriceSet->shopMoney->currencyCode;
+     $customs->DeclaredCurrency=$currency;
      $customs->FileName=NULL;
      $customs->FileType=NULL;
      $customs->FileContent=NULL;
@@ -128,9 +128,9 @@ $xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
    <soapenv:Header>
       <epg:AuthHeader>
          <!--Optional:-->
-         <epg:AccountNo>C372126</epg:AccountNo>
+         <epg:AccountNo>C175120</epg:AccountNo>
          <!--Optional:-->
-         <epg:Password>C372126</epg:Password>
+         <epg:Password>C175120</epg:Password>
       </epg:AuthHeader>
    </soapenv:Header>
    <soapenv:Body>
@@ -157,7 +157,7 @@ $xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
             <epg:ReceiverState>$message->ReceiverState</epg:ReceiverState>
             <epg:ReceiverCountry>$message->ReceiverCountry</epg:ReceiverCountry>
             <epg:ReferenceNo>$message->ReferenceNo</epg:ReferenceNo>
-            <epg:ReferenceNo1/>
+            <epg:ReferenceNo1>$message->ReferenceNo1</epg:ReferenceNo1>
             <epg:ReferenceNo2/>
             <epg:ReferenceNo3/>
             <epg:ContentTypeCode>$message->ContentTypeCode</epg:ContentTypeCode>
@@ -206,12 +206,12 @@ $xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
             <epg:PreferredPickupTimeFrom>$fixedTime</epg:PreferredPickupTimeFrom>
             <epg:PreferredPickupTimeTo>17:00</epg:PreferredPickupTimeTo>
             <epg:PrintType>LabelOnly</epg:PrintType>
+            <epg:RequestType>Shipment</epg:RequestType>
          </epg:BookingRequest>
          
       </epg:CreateBookingRequest>
    </soapenv:Body>
 </soapenv:Envelope>";
-//echo $xml;
 sendSOAP($xml,$item->name,$item->fulfillmentOrders->edges[0]->node->id,$conn);
 //usleep(250000);
    
@@ -240,7 +240,7 @@ function sendSOAP($xml,$orderID,$fulfillmentOrderID,$conn)
 {
    try{
       $dc=null;
-    $soapUrl = "https://osb.epg.gov.ae/ebs/genericapi/booking"; // asmx URL of WSDL
+    $soapUrl = "https://osbtest.epg.gov.ae/ebs/genericapi/booking"; // asmx URL of WSDL
 
            $headers = array(
                         "Content-type: text/xml;charset=\"utf-8\"",
@@ -296,19 +296,28 @@ function sendSOAP($xml,$orderID,$fulfillmentOrderID,$conn)
             $res = new Result();
             $res->orderID=$orderID;
             $res->awbNumber=$dc;
-	         $res->fulfillmentOrderID=$fulfillmentOrderID;
+	    //$res->cr=print_r($parser, true);
+	    $res->fulfillmentOrderID=$fulfillmentOrderID;
+	        array_push($GLOBALS['responses'],$res);
+		echo json_encode($res);
+flush();
+            flush();
+
+
+
 /*insert into DB
 */
-if($dc!=='')
+if($dc!='')
 {
-$sql = "INSERT INTO awb (id, userid, billString,ordername)
-VALUES (0, 1, '$cd','$orderID') ON DUPLICATE KEY UPDATE billString = '$cd'";
-
-if ($conn->query($sql) === TRUE) {
-$res->labelStored = true;
-} else {
-$res->labelStored=false;
-}
+   
+   $sql = "INSERT INTO awb (id, userid, billString,ordername)
+   VALUES (0, 1, '$cd','$orderID') ON DUPLICATE KEY UPDATE billString = '$cd'";
+   
+   if ($conn->query($sql) === TRUE) {
+   $res->labelStored = true;
+   } else {
+   $res->labelStored=false;
+   }
 }
 
 array_push($GLOBALS['responses'],$res);
@@ -321,10 +330,19 @@ array_push($GLOBALS['responses'],$res);
             $res->awbNumber=$dc;
             $res->fulfillmentOrderID=$fulfillmentOrderID;
             $res->exception=$e->getMessage();
-            array_push($GLOBALS['responses'],$res);
+	    //$res->cr=print_r($parser, true);
+            //array_push($GLOBALS['responses'],$res);
+	//echo json_encode($GLOBALS['responses']);
+
+echo json_encode($res);
+flush();
+
+//flush();
+
 
    }
 }
+
 function timeFixer($reference)
 {
 $d = date('H');
@@ -356,6 +374,6 @@ return strval($hour+1).":00";
 }
 }
 }           
-echo json_encode($responses);
+//echo json_encode($responses);
 $conn->close();
 ?>
